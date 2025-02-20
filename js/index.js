@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
     const enterFrom = formData.get("enterFrom");
     const exitTo = formData.get("exitTo");
     
-    fetch("https://rwroompercent.shrub.one/fetch", {
+    fetch("https://1pgw260ry3.execute-api.us-west-2.amazonaws.com/dev", {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
